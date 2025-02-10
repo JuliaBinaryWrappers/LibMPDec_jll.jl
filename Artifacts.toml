@@ -1,143 +1,160 @@
 [[LibMPDec]]
 arch = "aarch64"
-git-tree-sha1 = "94adb8c569de1740de973b018000afedf54f17c0"
+git-tree-sha1 = "add916cdc1ddbf86507bbbc5b3f3d1f556568341"
 os = "macos"
 
     [[LibMPDec.download]]
-    sha256 = "7390eeb103b8e99503241da8fb55aee5b56f37c3700123a846f110f86b1e8a8d"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "2a2638790967aec446065af00f57f116ba84a04c55cb787f9402d7af62f3484f"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.aarch64-apple-darwin.tar.gz"
 [[LibMPDec]]
 arch = "aarch64"
-git-tree-sha1 = "60914216388df9b7aebde83e993e874cbda8872d"
+git-tree-sha1 = "c1114cb470d9cd0286f9f5d9822a096535461993"
 libc = "glibc"
 os = "linux"
 
     [[LibMPDec.download]]
-    sha256 = "b10cef11e9c73b5a674b901c2333b4e068278ee52eea186ccb3f7a963eb0e67e"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "d4956b72884e49e1f7bcb69eb9cda27493cc359a8d099eaf5d468b65cfbd0d0f"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.aarch64-linux-gnu.tar.gz"
 [[LibMPDec]]
 arch = "aarch64"
-git-tree-sha1 = "5e03a40a403ccf0b5d799a2443bbfacc7e2d2a4a"
+git-tree-sha1 = "570932c1809478e548933dd51bbacd144e023f8c"
 libc = "musl"
 os = "linux"
 
     [[LibMPDec.download]]
-    sha256 = "6e075f99c3bfce4ef46c72d42f33ea707a2081e6f46e5e6ad7f88253ab794c9d"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.aarch64-linux-musl.tar.gz"
+    sha256 = "9f36f72fb8afec8f4ae7b5e2210992fe89db1b896d8884363362fdbc4d04c35a"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.aarch64-linux-musl.tar.gz"
 [[LibMPDec]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "b48fd70d79135f60ca5455894ddf76bd3149ee7b"
-libc = "glibc"
-os = "linux"
-
-    [[LibMPDec.download]]
-    sha256 = "f3bbf5f043e07172cd1e1d8849b88deb9ea38bf0e7a1bae7f28f70e8ef6e2756"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.armv6l-linux-gnueabihf.tar.gz"
-[[LibMPDec]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "b67604cdc5a34bd9baa4c31fa704dda7c83deef5"
-libc = "musl"
-os = "linux"
-
-    [[LibMPDec.download]]
-    sha256 = "822346bf16e069bcdaadb5099be57765b68816f1f8df8c3f2ca948f6d4bd07e2"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.armv6l-linux-musleabihf.tar.gz"
-[[LibMPDec]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "fffcb29d583f022b0c74c5226378d0cf7456bbf4"
-libc = "glibc"
-os = "linux"
-
-    [[LibMPDec.download]]
-    sha256 = "c168e584315c50d0b880eddd55f615137e79602ba445e5fc02797a2c7edd8d64"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.armv7l-linux-gnueabihf.tar.gz"
-[[LibMPDec]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "aeaffbec5963d5e4f0a44b3891530b9b73a32831"
-libc = "musl"
-os = "linux"
-
-    [[LibMPDec.download]]
-    sha256 = "b42509292a418447323e863ca49da090165d3fe0b4edd40a4564ea6af4d7c98f"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.armv7l-linux-musleabihf.tar.gz"
-[[LibMPDec]]
-arch = "i686"
-git-tree-sha1 = "c275cba1a68ed8c123a39e22968c8e09914a72ba"
-libc = "glibc"
-os = "linux"
-
-    [[LibMPDec.download]]
-    sha256 = "4c54454c37826d2cb196ada16fd31f4ad22dd0fc8a2671e2fc8194c8ec38c28e"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.i686-linux-gnu.tar.gz"
-[[LibMPDec]]
-arch = "i686"
-git-tree-sha1 = "8e7bb5665c161927a2b766d011627d49fce1d11b"
-libc = "musl"
-os = "linux"
-
-    [[LibMPDec.download]]
-    sha256 = "2e51ee65f8a3e9763b6d9429b59e1db1852ab77f7bc215e54a6abc559a643b50"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.i686-linux-musl.tar.gz"
-[[LibMPDec]]
-arch = "i686"
-git-tree-sha1 = "a1af288d2bafa951dd74245083f019c028dc905a"
-os = "windows"
-
-    [[LibMPDec.download]]
-    sha256 = "7c094aaa5e58b12405b84223e1a2391f216e5137b2b9a6651bb7bf1a5a3a4d0c"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.i686-w64-mingw32.tar.gz"
-[[LibMPDec]]
-arch = "powerpc64le"
-git-tree-sha1 = "51800a21813abab5310fc50d3dd1b21ee1b48f72"
-libc = "glibc"
-os = "linux"
-
-    [[LibMPDec.download]]
-    sha256 = "ed36e7cd376cd8a3fdf67184b709e7f1e55ece331eff28654f7df8ca9111bf57"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.powerpc64le-linux-gnu.tar.gz"
-[[LibMPDec]]
-arch = "x86_64"
-git-tree-sha1 = "cc7a8b6d590bad8046048d66f97bfd8eb16a810a"
-os = "macos"
-
-    [[LibMPDec.download]]
-    sha256 = "d2f938ccd349dcad3e88ae4a3aceb20f8f15997a8f1b237b2177012975ac9284"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.x86_64-apple-darwin.tar.gz"
-[[LibMPDec]]
-arch = "x86_64"
-git-tree-sha1 = "a6ca875c966575441b335fb42f0508c2d2de3b55"
-libc = "glibc"
-os = "linux"
-
-    [[LibMPDec.download]]
-    sha256 = "9eed6580fcfe7d478b06fe59d5ac8e59d9e2024defc926f3cb5a7199409d40b1"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.x86_64-linux-gnu.tar.gz"
-[[LibMPDec]]
-arch = "x86_64"
-git-tree-sha1 = "977d91b2ae08fcd3847ad5525c3f14cdb7e145d7"
-libc = "musl"
-os = "linux"
-
-    [[LibMPDec.download]]
-    sha256 = "863fedd9a36fbd2b52240445bd02606eaddff3178db9eba7a30089d63dba618d"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.x86_64-linux-musl.tar.gz"
-[[LibMPDec]]
-arch = "x86_64"
-git-tree-sha1 = "4ab908f40ca5b552096adac70cadc169b0465611"
+arch = "aarch64"
+git-tree-sha1 = "03abe08ae8fdb5c563b5a28bbeadaa678e91c208"
 os = "freebsd"
 
     [[LibMPDec.download]]
-    sha256 = "5418210645d9ed8c32b91037d1c98a062e453c2916bea7e6007f8f52b49b054a"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "610b0a3edb6801d79e2d018b3d3c2b823021a6042a0cca9fa5245fd6b55a5d38"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.aarch64-unknown-freebsd.tar.gz"
 [[LibMPDec]]
-arch = "x86_64"
-git-tree-sha1 = "089b0cf991506d32273a0182ac3110a0c85e4cfa"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "a0feeb47cdbb26bf851907c5d83e42f0e075c689"
+libc = "glibc"
+os = "linux"
+
+    [[LibMPDec.download]]
+    sha256 = "096152b01bd5b7d0fd18b59db6409f1384a154f355d08d129930008c04ac16d4"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.armv6l-linux-gnueabihf.tar.gz"
+[[LibMPDec]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "65f4cdaf5787d3ee81c91b1f657eb3c48357c623"
+libc = "musl"
+os = "linux"
+
+    [[LibMPDec.download]]
+    sha256 = "fb0564f19d86f543ef8be8dac1127154c6e5993172d72be40b14ec674774cf3b"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.armv6l-linux-musleabihf.tar.gz"
+[[LibMPDec]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "d3c03af35a2e9c77f04bc7d764c6f8719ec50ed9"
+libc = "glibc"
+os = "linux"
+
+    [[LibMPDec.download]]
+    sha256 = "61bd63a6fa56657cc15d0f12cad3948c1f77585d1491e2f62661d71bec6709c0"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.armv7l-linux-gnueabihf.tar.gz"
+[[LibMPDec]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "4611ed128f4d832cc2960e939a9ea46da44e3f33"
+libc = "musl"
+os = "linux"
+
+    [[LibMPDec.download]]
+    sha256 = "3a12add8f231db1e922d33641c73285e419750fcb94ddb30d1714a48d8402f7e"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.armv7l-linux-musleabihf.tar.gz"
+[[LibMPDec]]
+arch = "i686"
+git-tree-sha1 = "0c3a53eb73ddafb149f10d2a35ba467206841ac0"
+libc = "glibc"
+os = "linux"
+
+    [[LibMPDec.download]]
+    sha256 = "4d82459585b6c20b6edd57995826db80f620554f05e227ca8d7beaa6d9e9a0c7"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.i686-linux-gnu.tar.gz"
+[[LibMPDec]]
+arch = "i686"
+git-tree-sha1 = "9b4e559f6f8e5f9d87c5b1c55822e0fbd82f5965"
+libc = "musl"
+os = "linux"
+
+    [[LibMPDec.download]]
+    sha256 = "f03a676eeca0f9f3709cb15ea4e004b4b40b5149ef8edf7a6958a06efd4149a5"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.i686-linux-musl.tar.gz"
+[[LibMPDec]]
+arch = "i686"
+git-tree-sha1 = "f52dbca4c38e0337c85b13bf346ee29f206275ef"
 os = "windows"
 
     [[LibMPDec.download]]
-    sha256 = "1d0e2a1ee3c301f5cc9f909bfb29b082d6ab0ae686082d9023ff340729634caa"
-    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.1+0/LibMPDec.v2.5.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "4cd280f69c48b9ff74ae193c817b8ec2839fe6ad44c23d406a7b93b0977623b6"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.i686-w64-mingw32.tar.gz"
+[[LibMPDec]]
+arch = "powerpc64le"
+git-tree-sha1 = "2c45cf1728476aed07128a0cae525febf353e2f1"
+libc = "glibc"
+os = "linux"
+
+    [[LibMPDec.download]]
+    sha256 = "5ff26f97eb53e53e3f756660979c6c7ec5f9a66f841639a9320f47cb08d75741"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.powerpc64le-linux-gnu.tar.gz"
+[[LibMPDec]]
+arch = "riscv64"
+git-tree-sha1 = "fde46132ac480b778e0535e3e4b6f590759cba35"
+libc = "glibc"
+os = "linux"
+
+    [[LibMPDec.download]]
+    sha256 = "357e617dd3f33f582e1bb36176b0ab9ad197db3b55e68eebc2ba8af2e4873e4b"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.riscv64-linux-gnu.tar.gz"
+[[LibMPDec]]
+arch = "x86_64"
+git-tree-sha1 = "7faf8309a8035aad3b568313802c2b44f67a196e"
+os = "macos"
+
+    [[LibMPDec.download]]
+    sha256 = "91cbb8b1e49fb7785cda1fb091171fd57ff120ac15d39f0ec2e9f7a4e1b78344"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.x86_64-apple-darwin.tar.gz"
+[[LibMPDec]]
+arch = "x86_64"
+git-tree-sha1 = "8535f1d9e1f47e434efe6f10c94f8069e1b2c468"
+libc = "glibc"
+os = "linux"
+
+    [[LibMPDec.download]]
+    sha256 = "96c9f2a0d8864835d26810da7bb9500dc5b5607e79d8a503967dc6e406e93776"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.x86_64-linux-gnu.tar.gz"
+[[LibMPDec]]
+arch = "x86_64"
+git-tree-sha1 = "4fd649d008d1a28773c76de9dce16e0fc64dcb4a"
+libc = "musl"
+os = "linux"
+
+    [[LibMPDec.download]]
+    sha256 = "73023c2a6813029d6ff8af24e5cc21d005ab1aaf7e41746e3e17ffd1adf35c29"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.x86_64-linux-musl.tar.gz"
+[[LibMPDec]]
+arch = "x86_64"
+git-tree-sha1 = "8aa2072982281db4dbeacaef4dc593dff3099476"
+os = "freebsd"
+
+    [[LibMPDec.download]]
+    sha256 = "005d76b6e32ee52e1d68d91374a017d1a448c998da902af2413e81b6ebc97fdc"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.x86_64-unknown-freebsd.tar.gz"
+[[LibMPDec]]
+arch = "x86_64"
+git-tree-sha1 = "5587949dea2cba22335c960b85af02ecaa8d8539"
+os = "windows"
+
+    [[LibMPDec.download]]
+    sha256 = "e78c8f5f85e79e8672f74283d7ab2a46a30033590ba112ac1cee95ec6d254dc8"
+    url = "https://github.com/JuliaBinaryWrappers/LibMPDec_jll.jl/releases/download/LibMPDec-v2.5.2+0/LibMPDec.v2.5.2.x86_64-w64-mingw32.tar.gz"
